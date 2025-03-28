@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tfc:rock/raw/diorite"
+    },
+    {
+      "tag": "forge:cobblestone/normal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 2
+  }
+}

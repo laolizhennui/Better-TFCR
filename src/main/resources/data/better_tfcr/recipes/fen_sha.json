@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tfc:sand/pink"
+    },
+    {
+      "tag": "forge:cobblestone/normal"
+    }
+  ],
+  "result": {
+    "item": "tfc:sand/pink",
+    "count": 3
+  }
+}

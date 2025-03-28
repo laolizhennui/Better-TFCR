@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tfc:food/wheat_flour"
+    },
+    {
+      "tag": "tfc:forge_fuel"
+    }
+  ],
+  "result": {
+    "item": "create:cinder_flour",
+    "count": 1
+  }
+}
