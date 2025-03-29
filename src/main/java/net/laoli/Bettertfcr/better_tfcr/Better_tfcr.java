@@ -30,7 +30,7 @@ import net.minecraft.world.item.ItemStack;
 @Mod(Better_tfcr.MODID)
 public class Better_tfcr {
 
-    public static final String MODID = "bettertfcr";
+    public static final String MODID = "better_tfcr";
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
@@ -38,10 +38,11 @@ public class Better_tfcr {
 
     // 注册高碳锻铁锭
     public static final RegistryObject<Item> HIGH_CARBON_WROUGHT_IRON = ITEMS.register("high_carbon_wrought_iron", () -> new Item(new Item.Properties()));
+    // public static final RegistryObject<Item> TAB_ICON = ITEMS.register("tab_icon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<CreativeModeTab> BETTER_TFCR_TAB = CREATIVE_MODE_TABS.register("better_tfcr_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.bettertfcr.better_tfcr_tab")) // 标签页名称的翻译键
-                    .icon(() -> new ItemStack(HIGH_CARBON_WROUGHT_IRON.get())) // 保持原样，或使用安全方法
+                    .title(Component.translatable("itemGroup.better_tfcr.better_tfcr_tab")) // 标签页名称的翻译键
+                    .icon(() -> new ItemStack(HIGH_CARBON_WROUGHT_IRON.get()))
                     .build());
     public Better_tfcr() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
