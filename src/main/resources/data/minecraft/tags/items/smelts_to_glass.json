@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:sand/black",
+    "tfc:sand/brown",
+    "tfc:sand/green",
+    "tfc:sand/pink",
+    "tfc:sand/red",
+    "tfc:sand/white",
+    "tfc:sand/yellow"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "tfc:lumber"
+    }
+  ],
+  "results": [
+    {
+      "item": "better_tfcr:plug"
+    }
+  ]
+}
