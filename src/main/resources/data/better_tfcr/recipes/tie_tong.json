@@ -1,15 +1,17 @@
 {
-  "type": "tfc:anvil",
-  "input": {
-    "tag": "forge:sheets/wrought_iron"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    }
   },
   "result": {
-    "item": "minecraft:bucket"
-  },
-  "tier": 3,
-  "rules": [
-    "bend_last",
-    "bend_second_last",
-    "draw_third_last"
-  ]
+    "item": "minecraft:bucket",
+    "count": 1
+  }
 }

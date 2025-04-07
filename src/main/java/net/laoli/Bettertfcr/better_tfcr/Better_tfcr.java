@@ -36,11 +36,8 @@ public class Better_tfcr {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-    // register items
+    // 注册高碳锻铁锭
     public static final RegistryObject<Item> HIGH_CARBON_WROUGHT_IRON = ITEMS.register("high_carbon_wrought_iron", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GLASS_BOTTLE_WITHOUT_STOPPERS = ITEMS.register("glass_bottle_without_stoppers",() -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PLUG = ITEMS.register("plug",() -> new Item(new Item.Properties()));
-
     // public static final RegistryObject<Item> TAB_ICON = ITEMS.register("tab_icon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<CreativeModeTab> BETTER_TFCR_TAB = CREATIVE_MODE_TABS.register("better_tfcr_tab",
             () -> CreativeModeTab.builder()
@@ -74,10 +71,13 @@ public class Better_tfcr {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        // 添加到原有的材料标签页（可选，根据需求保留或删除）
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(HIGH_CARBON_WROUGHT_IRON); // 直接传递RegistryObject，无需调用get()
+        }
+        // 添加到新的标签页
         if (event.getTabKey() == BETTER_TFCR_TAB.getKey()) {
-            event.accept(HIGH_CARBON_WROUGHT_IRON);
-            event.accept(GLASS_BOTTLE_WITHOUT_STOPPERS);
-            event.accept(PLUG);
+            event.accept(HIGH_CARBON_WROUGHT_IRON); // 同上
         }
     }
 
