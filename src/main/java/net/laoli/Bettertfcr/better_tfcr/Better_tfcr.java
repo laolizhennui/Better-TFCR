@@ -31,10 +31,10 @@ public class Better_tfcr {
     public static final String MODID = "better_tfcr";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    // register items
     public static final RegistryObject<Item> HIGH_CARBON_WROUGHT_IRON = ITEMS.register("high_carbon_wrought_iron", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GLASS_BOTTLE_WITHOUT_STOPPERS = ITEMS.register("glass_bottle_without_stoppers",() -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PLUG = ITEMS.register("plug",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GLASS_BOTTLE_WITHOUT_STOPPERS = ITEMS.register("glass_bottle_without_stoppers", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLUG = ITEMS.register("plug", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COAL_ASH = ITEMS.register("coal_ash", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<CreativeModeTab> BETTER_TFCR_TAB = CREATIVE_MODE_TABS.register("better_tfcr_tab",
             () -> CreativeModeTab.builder()
@@ -72,6 +72,7 @@ public class Better_tfcr {
             event.accept(HIGH_CARBON_WROUGHT_IRON);
             event.accept(GLASS_BOTTLE_WITHOUT_STOPPERS);
             event.accept(PLUG);
+            event.accept(COAL_ASH);
         }
     }
 

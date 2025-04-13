@@ -1,6 +1,10 @@
 {
   "type": "tfc:glassworking",
   "operations": [
+    "blow",
+    "blow",
+    "blow",
+    "blow",
     "blow"
   ],
   "batch": {
