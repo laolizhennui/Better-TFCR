@@ -66,4 +66,8 @@ You can use a pig iron ingot to shoot out through a level 3 anvil, and you can u
 ### immersiveengineering
 ### terrafirmacraft
 ### exposure
-### Ore Processing for TFC(modrinth no)
+### Ore Processing for TFC
+### TFC Artisanal
+### DecoFirmaCraft
+### Firmalife
+### TFC + IE Crossover
