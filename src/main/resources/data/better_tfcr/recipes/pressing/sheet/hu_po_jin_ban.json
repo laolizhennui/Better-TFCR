@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tfc_ie_addon:metal/double_ingot/electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc_ie_addon:metal/sheet/electrum"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:double_ingots/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "dfc:metal/sheet/lead"
+    }
+  ]
+}

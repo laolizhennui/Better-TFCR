@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tfc_ie_addon:metal/sheet/lead"
+    }
+  ],
+  "result": {
+    "item": "dfc:metal/sheet/lead"
+  }
+}

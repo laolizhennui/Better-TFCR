@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "dfc:metal/double_ingot/alumina"
+    }
+  ],
+  "results": [
+    {
+      "item": "dfc:metal/sheet/alumina"
+    }
+  ]
+}

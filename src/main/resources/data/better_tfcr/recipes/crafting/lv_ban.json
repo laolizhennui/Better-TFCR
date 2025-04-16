@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dfc:metal/sheet/aluminum"
+    }
+  ],
+  "result": {
+    "item": "tfc_ie_addon:metal/sheet/aluminum"
+  }
+}

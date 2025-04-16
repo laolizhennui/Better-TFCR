@@ -1,0 +1,10 @@
+{
+  "type": "tfc:quern",
+  "ingredient": {
+    "item": "tfc:food/beet"
+  },
+  "result": {
+    "item": "better_tfcr:dried_beet_residue",
+    "count": 1
+  }
+}

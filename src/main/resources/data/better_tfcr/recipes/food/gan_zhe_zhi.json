@@ -1,0 +1,10 @@
+{
+  "type": "artisanal:juicing",
+  "ingredient": {
+    "item": "tfc:food/beet"
+  },
+  "result": {
+    "fluid": "artisanal:sugarcane_juice",
+    "amount": 250
+  }
+}
