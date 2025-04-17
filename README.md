@@ -26,15 +26,23 @@
 
 ## 最新版本需要的依赖
 
-### create
-### immersiveengineering
-### terrafirmacraft
-### exposure
-### Ore Processing for TFC
-### TFC Artisanal
-### DecoFirmaCraft
-### Firmalife
-### TFC + IE Crossover
+create, 
+
+immersiveengineering, 
+
+terrafirmacraft, 
+
+exposure,
+
+Ore Processing for TFC,
+
+TFC Artisanal,
+
+DecoFirmaCraft,
+
+Firmalife,
+
+TFC + IE Crossover,
 
 # English
 
@@ -62,12 +70,20 @@ You can use a pig iron ingot to shoot out through a level 3 anvil, and you can u
 
 ## Dependencies required by the latest version
 
-### create
-### immersiveengineering
-### terrafirmacraft
-### exposure
-### Ore Processing for TFC
-### TFC Artisanal
-### DecoFirmaCraft
-### Firmalife
-### TFC + IE Crossover
+create,
+
+immersiveengineering,
+
+terrafirmacraft,
+
+exposure,
+
+Ore Processing for TFC,
+
+TFC Artisanal,
+
+DecoFirmaCraft,
+
+Firmalife,
+
+TFC + IE Crossover,
