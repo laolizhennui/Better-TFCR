@@ -44,6 +44,8 @@
 
 **TFC + IE Crossover**
 
+**TFC**
+
 # English
 
 # Do you think the synthesis formula of TFCR is too difficult? This mod can help you solve this problem
@@ -87,3 +89,5 @@ You can use a pig iron ingot to shoot out through a level 3 anvil, and you can u
 **Firmalife,**
 
 **TFC + IE Crossover**
+
+**TFC**
