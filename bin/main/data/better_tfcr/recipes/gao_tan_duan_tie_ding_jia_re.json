@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "better_tfcr:high_carbon_wrought_iron"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/pig_iron",
+    "amount": 100
+  },
+  "temperature": 1535
+}

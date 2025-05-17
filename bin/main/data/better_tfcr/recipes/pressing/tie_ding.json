@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tfc:refined_iron_bloom"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:metal/ingot/wrought_iron"
+    }
+  ]
+}

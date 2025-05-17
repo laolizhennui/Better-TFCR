@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:double_ingots/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "item": "dfc:metal/sheet/aluminum"
+    }
+  ]
+}

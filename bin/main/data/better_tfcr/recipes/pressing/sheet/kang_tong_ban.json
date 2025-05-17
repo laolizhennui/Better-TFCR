@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tfc_ie_addon:metal/double_ingot/constantan"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc_ie_addon:metal/sheet/constantan"
+    }
+  ]
+}

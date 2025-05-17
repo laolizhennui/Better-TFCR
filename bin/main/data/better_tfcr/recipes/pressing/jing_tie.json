@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tfc:raw_iron_bloom"
+    }
+  ],
+  "results": [
+    {
+      "item": "tfc:refined_iron_bloom"
+    }
+  ]
+}

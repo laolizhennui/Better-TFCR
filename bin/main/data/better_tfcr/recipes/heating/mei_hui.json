@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfcoreprocessing:kindle/coal_dust"
+  },
+  "result_item": {
+    "item": "better_tfcr:coal_ash"
+  },
+  "temperature": 400
+}

@@ -1,51 +1,5 @@
 # Better TFCR
 
-# 中文
-
-# 你是不是认为TFCR的合成配方太困难了？这个mod可以帮你解决这个事情
-
-## 这个mod添加的主要配方：
-
-### 可再生沙子
-
-使用1个圆石和1个当前品种的沙子可以合成3个当前品种的沙子
-
-### 更好地安山合金
-
-使用2个锌粒和2个安山岩可合成4个安山合金
-
-### 更好的耐火粘土球
-
-1个高岭石粉和1个石墨粉和1个黏土球可合成3个耐火粘土球
-
-## 不仅如此，这个mod还添加了一些物品，比如：
-
-### 高碳锻铁锭
-
-可以使用一个生铁锭通过3级砧打出，可通过3级砧打出锻铁锭
-
-## 最新版本需要的依赖
-
-**create,**
-
-**immersiveengineering,**
-
-**terrafirmacraft,**
-
-**exposure,**
-
-**Ore Processing for TFC,**
-
-**TFC Artisanal,**
-
-**DecoFirmaCraft,**
-
-**Firmalife,**
-
-**TFC + IE Crossover**
-
-**TFC**
-
 # English
 
 # Do you think the synthesis formula of TFCR is too difficult? This mod can help you solve this problem
@@ -90,4 +44,47 @@ You can use a pig iron ingot to shoot out through a level 3 anvil, and you can u
 
 **TFC + IE Crossover**
 
-**TFC**
+# 中文
+
+# 你是不是认为TFCR的合成配方太困难了？这个mod可以帮你解决这个事情
+
+## 这个mod添加的主要配方：
+
+### 可再生沙子
+
+使用1个圆石和1个当前品种的沙子可以合成3个当前品种的沙子
+
+### 更好地安山合金
+
+使用2个锌粒和2个安山岩可合成4个安山合金
+
+### 更好的耐火粘土球
+
+1个高岭石粉和1个石墨粉和1个黏土球可合成3个耐火粘土球
+
+## 不仅如此，这个mod还添加了一些物品，比如：
+
+### 高碳锻铁锭
+
+可以使用一个生铁锭通过3级砧打出，可通过3级砧打出锻铁锭
+
+## 最新版本需要的依赖
+
+**create,**
+
+**immersiveengineering,**
+
+**terrafirmacraft,**
+
+**exposure,**
+
+**Ore Processing for TFC,**
+
+**TFC Artisanal,**
+
+**DecoFirmaCraft,**
+
+**Firmalife,**
+
+**TFC + IE Crossover**
+

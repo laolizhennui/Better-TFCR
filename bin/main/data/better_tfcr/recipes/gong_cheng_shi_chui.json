@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "b": {
+      "tag": "tfc:can_be_lit_on_torch"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:hammer",
+    "count": 1
+  }
+}

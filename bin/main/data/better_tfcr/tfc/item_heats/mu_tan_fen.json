@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tfc:powder/charcoal"
+  },
+  "heat_capacity": 6,
+  "forging_temperature": 200,
+  "welding_temperature": 300
+}

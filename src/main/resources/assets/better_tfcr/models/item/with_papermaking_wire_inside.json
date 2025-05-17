@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "better_tfcr:item/with_papermaking_with_inside"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "better_tfcr:plug"
+    },
+    "b": {
+      "item": "better_tfcr:glass_bottle_without_stoppers"
+    }
+  },
+  "result": {
+    "item": "minecraft:glass_bottle",
+    "count": 1
+  }
+}

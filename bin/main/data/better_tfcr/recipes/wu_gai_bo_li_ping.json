@@ -1,0 +1,15 @@
+{
+  "type": "tfc:glassworking",
+  "operations": [
+    "blow",
+    "blow",
+    "blow",
+    "blow"
+  ],
+  "batch": {
+    "item": "tfc:silica_glass_batch"
+  },
+  "result": {
+    "item": "better_tfcr:glass_bottle_without_stoppers"
+  }
+}

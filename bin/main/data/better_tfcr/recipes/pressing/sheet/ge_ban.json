@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "firmalife:metal/double_ingot/chromium"
+    }
+  ],
+  "results": [
+    {
+      "item": "firmalife:metal/sheet/chromium"
+    }
+  ]
+}

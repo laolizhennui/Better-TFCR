@@ -1,8 +1,6 @@
 package net.laoli.Bettertfcr.better_tfcr;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -18,15 +16,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import static net.laoli.Bettertfcr.better_tfcr.ModRegister.*;
 import static net.laoli.Bettertfcr.better_tfcr.RemoveRecipes.removeSpecifiedRecipe;
+import static net.laoli.Bettertfcr.better_tfcr.addCreative.addCreatives;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
 @Mod(Better_tfcr.MODID)
 public class Better_tfcr {
 
     public static final String MODID = "better_tfcr";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Better_tfcr() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -35,39 +33,27 @@ public class Better_tfcr {
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new ModRegister.Items());
         modEventBus.addListener(this::addCreative);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        if (Config.logDirtBlock) LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-        LOGGER.info("{}{}", Config.magicNumberIntroduction, Config.magicNumber);
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        addCreatives(event);
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == BETTER_TFCR_TAB.getKey()) {
-            event.accept(HIGH_CARBON_WROUGHT_IRON);
-            event.accept(GLASS_BOTTLE_WITHOUT_STOPPERS);
-            event.accept(PLUG);
-            event.accept(COAL_ASH);
-            event.accept(DRIED_BEET_RESIDUE);
-        }
-    }
+    private void commonSetup(final FMLCommonSetupEvent event) {}
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        LOGGER.info("The server is started.");
+        LOGGER.info("Start deleting recipes");
         removeSpecifiedRecipe(); // 删除特定的配方
+        LOGGER.info("Recipe deleted.");
     }
 
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-            LOGGER.info("The client is started.");
-            LOGGER.info("{} is minecraft name.", Minecraft.getInstance().getUser().getName());
-        }
+        public static void onClientSetup(FMLClientSetupEvent event) {}
     }
 }

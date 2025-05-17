@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:dust_wood"
+    }
+  ],
+  "result": {
+    "item": "tfcoreprocessing:kindle/sawdust"
+  }
+}
