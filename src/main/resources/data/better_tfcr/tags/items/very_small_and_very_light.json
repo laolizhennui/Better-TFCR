@@ -4,6 +4,12 @@
     "better_tfcr:glass_bottle_without_stoppers",
     "better_tfcr:plug",
     "better_tfcr:coal_ash",
-    "better_tfcr:dried_beet_residue"
+    "better_tfcr:dried_beet_residue",
+    "better_tfcr:coarse_fiber",
+    "better_tfcr:fiber",
+    "better_tfcr:clean_fiber",
+    "better_tfcr:coarse_fiber",
+    "better_tfcr:alkaline_fiber",
+    "better_tfcr:clean_alkaline_fiber"
   ]
 }

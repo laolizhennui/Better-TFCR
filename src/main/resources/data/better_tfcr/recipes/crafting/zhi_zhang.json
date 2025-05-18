@@ -1,0 +1,19 @@
+{
+  "type": "tfc:extra_products_shapeless_crafting",
+  "extra_products": [
+    {
+      "item": "better_tfcr:papermaking_wire"
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "better_tfcr:with_papermaking_wire_inside"
+      }
+    ],
+    "result": {
+      "item": "minecraft:paper"
+    }
+  }
+}

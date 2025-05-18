@@ -24,7 +24,6 @@ public class ModRegister {
         public static final RegistryObject<Item> PLUG = ITEMS.register("plug", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> COAL_ASH = ITEMS.register("coal_ash", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> DRIED_BEET_RESIDUE = ITEMS.register("dried_beet_residue", () -> new Item(new Item.Properties()));
-
         public static final RegistryObject<Item> COARSE_FIBER = ITEMS.register("coarse_fiber", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> FIBER = ITEMS.register("fiber", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> PAPERMAKING_WIRE = ITEMS.register("papermaking_wire", () -> new Item(new Item.Properties()));

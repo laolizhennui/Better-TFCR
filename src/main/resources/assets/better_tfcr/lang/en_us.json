@@ -11,5 +11,8 @@
   "item.better_tfcr.with_papermaking_wire_inside": "With papermaking wire inside",
   "item.better_tfcr.clean_fiber": "Clean fiber",
   "item.better_tfcr.alkaline_fiber": "Alkaline fiber",
-  "item.better_tfcr.clean_alkaline_fiber": "Clean alkaline fiber"
+  "item.better_tfcr.clean_alkaline_fiber": "Clean alkaline fiber",
+  "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_jian_hua_xian_wei": "Washing alkaline fiber",
+  "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_xian_wei": "Washing fiber",
+  "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "Alkaline fiber"
 }
