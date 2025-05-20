@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "better_tfcr:coarse_fiber"
+    }
+  ],
+  "result": {
+    "item": "better_tfcr:coarse_fiber",
+    "count": 4
+  }
+}

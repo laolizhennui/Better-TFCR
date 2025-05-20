@@ -1,0 +1,16 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "item": "better_tfcr:fiber"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 10
+  },
+  "output_item": {
+    "item": "better_tfcr:clean_fiber"
+  },
+  "duration": 8000
+}

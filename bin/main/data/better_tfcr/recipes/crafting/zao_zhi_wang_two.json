@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "tfc:lumber"
+    },
+    "b": {
+      "tag": "tfc:sewing_dark_cloth"
+    }
+  },
+  "result": {
+    "item": "better_tfcr:papermaking_wire",
+    "count": 1
+  }
+}

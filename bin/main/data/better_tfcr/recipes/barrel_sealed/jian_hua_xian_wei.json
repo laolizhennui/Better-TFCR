@@ -1,0 +1,16 @@
+{
+  "type": "tfc:barrel_sealed",
+  "input_item": {
+    "ingredient": {
+      "item": "better_tfcr:clean_fiber"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "tfc:lye",
+    "amount": 1
+  },
+  "output_item": {
+    "item": "better_tfcr:alkaline_fiber"
+  },
+  "duration": 8000
+}

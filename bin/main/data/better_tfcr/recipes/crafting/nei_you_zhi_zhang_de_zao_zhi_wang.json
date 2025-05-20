@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "better_tfcr:clean_alkaline_fiber"
+    },
+    {
+      "item": "better_tfcr:clean_alkaline_fiber"
+    },
+    {
+      "item": "better_tfcr:papermaking_wire"
+    }
+  ],
+  "result": {
+    "item": "better_tfcr:with_papermaking_wire_inside"
+  }
+}
