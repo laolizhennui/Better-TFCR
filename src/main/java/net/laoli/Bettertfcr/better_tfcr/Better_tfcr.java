@@ -1,6 +1,7 @@
 package net.laoli.Bettertfcr.better_tfcr;
 
 import com.mojang.logging.LogUtils;
+import net.laoli.Bettertfcr.better_tfcr.Item.RegisterItem;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,7 +34,7 @@ public class Better_tfcr {
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(new ModRegister.Items());
+        MinecraftForge.EVENT_BUS.register(new RegisterItem.Items());
         modEventBus.addListener(this::addCreative);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

@@ -16,8 +16,8 @@ public class RemoveRecipes {
                 new ResourceLocation("tfc", "crafting/parchment"),
                 new ResourceLocation("immersiveengineering", "crafting/paper_from_sawdust"),
                 new ResourceLocation("tfc", "scraping/paper"),
-                new ResourceLocation("artisanal", "barrel/paper")
-
+                new ResourceLocation("artisanal", "barrel/paper"),
+                new ResourceLocation("farmersdelight", "lead_from_straw")
         ));
     }
 }
