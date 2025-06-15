@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "better_tfcr:thermometer"
+  },
+  "heat_capacity": 0.5,
+  "forging_temperature": 2147483647,
+  "welding_temperature": 2147483647
+}

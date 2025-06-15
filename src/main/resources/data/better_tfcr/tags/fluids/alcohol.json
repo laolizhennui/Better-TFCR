@@ -1,0 +1,22 @@
+{
+  "values": [
+    "firmalife:pina_colada",
+    "firmalife:mead",
+    "firmalife:red_wine",
+    "firmalife:white_wine",
+    "firmalife:rose_wine",
+    "firmalife:sparkling_wine",
+    "firmalife:dessert_wine",
+    "tfcagedalcohol:aged_beer",
+    "tfcagedalcohol:aged_cider",
+    "tfcagedalcohol:aged_rum",
+    "tfcagedalcohol:aged_sake",
+    "tfcagedalcohol:aged_vodka",
+    "artisanal:screwdriver",
+    "tfc:beer",
+    "tfc:cider",
+    "tfc:rum",
+    "tfc:sake",
+    "tfc:vodka"
+  ]
+}

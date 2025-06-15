@@ -14,5 +14,7 @@
   "item.better_tfcr.clean_alkaline_fiber": "Clean alkaline fiber",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_jian_hua_xian_wei": "Washing alkaline fiber",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_xian_wei": "Washing fiber",
-  "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "Alkaline fiber"
+  "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "Alkaline fiber",
+  "item.better_tfcr.thermometer": "Thermometer",
+  "item.better_tfcr.empty_thermometer": "Empty thermometer"
 }

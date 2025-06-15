@@ -1,0 +1,14 @@
+{
+  "type": "tfc:glassworking",
+  "operations": [
+    "blow",
+    "stretch",
+    "pinch"
+  ],
+  "batch": {
+    "item": "tfc:silica_glass_batch"
+  },
+  "result": {
+    "item": "better_tfcr:empty_thermometer"
+  }
+}

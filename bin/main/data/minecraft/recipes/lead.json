@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    "XX ",
+    "XX ",
+    "  X"
+  ],
+  "result": {
+    "item": "minecraft:lead",
+    "count": 2
+  },
+  "show_notification": true
+}

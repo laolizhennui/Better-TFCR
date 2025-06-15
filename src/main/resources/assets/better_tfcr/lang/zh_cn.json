@@ -14,5 +14,7 @@
   "item.better_tfcr.clean_alkaline_fiber": "干净的碱化纤维",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_jian_hua_xian_wei": "清洗碱化纤维",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_xian_wei": "清洗纤维",
-  "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "碱化纤维"
+  "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "碱化纤维",
+  "item.better_tfcr.thermometer": "温度计",
+  "item.better_tfcr.empty_thermometer": "空温度计"
 }

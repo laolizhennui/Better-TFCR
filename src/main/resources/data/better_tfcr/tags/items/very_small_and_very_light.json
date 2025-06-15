@@ -10,6 +10,8 @@
     "better_tfcr:clean_fiber",
     "better_tfcr:coarse_fiber",
     "better_tfcr:alkaline_fiber",
-    "better_tfcr:clean_alkaline_fiber"
+    "better_tfcr:clean_alkaline_fiber",
+    "better_tfcr:thermometer",
+    "better_tfcr:empty_thermometer"
   ]
 }

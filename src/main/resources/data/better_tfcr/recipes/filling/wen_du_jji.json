@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "better_tfcr:empty_thermometer"
+    },
+    {
+      "amount": 100,
+      "fluidTag": "better_tfcr:alcohol",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "better_tfcr:thermometer"
+    }
+  ]
+}

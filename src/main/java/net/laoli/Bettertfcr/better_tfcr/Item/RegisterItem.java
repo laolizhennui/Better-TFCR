@@ -20,5 +20,7 @@ public class RegisterItem {
         public static final RegistryObject<Item> CLEAN_FIBER = ITEMS.register("clean_fiber", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> ALKALINE_FIBER = ITEMS.register("alkaline_fiber", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> CLEAN_ALKALINE_FIBER = ITEMS.register("clean_alkaline_fiber", () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> THERMOMETER = ITEMS.register("thermometer", () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> EMPTY_THERMOMETER = ITEMS.register("empty_thermometer", () -> new Item(new Item.Properties()));
     }
 }
