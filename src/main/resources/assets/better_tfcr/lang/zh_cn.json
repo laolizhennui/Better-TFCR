@@ -16,5 +16,8 @@
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_xian_wei": "清洗纤维",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "碱化纤维",
   "item.better_tfcr.thermometer": "温度计",
-  "item.better_tfcr.empty_thermometer": "空温度计"
+  "item.better_tfcr.empty_thermometer": "空温度计",
+  "item.better_tfcr.pulp_bucket": "纸浆桶",
+  "block.better_tfcr.pulp_block": "纸浆",
+  "fluid_type.better_tfcr.pulp_type": "纸浆"
 }

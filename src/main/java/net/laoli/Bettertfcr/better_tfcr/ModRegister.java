@@ -1,6 +1,6 @@
 package net.laoli.Bettertfcr.better_tfcr;
 
-import net.laoli.Bettertfcr.better_tfcr.Item.RegisterItem;
+import net.laoli.Bettertfcr.better_tfcr.Register.RegisterItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

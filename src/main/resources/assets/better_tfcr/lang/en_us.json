@@ -16,5 +16,8 @@
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.gan_jing_de_xian_wei": "Washing fiber",
   "tfc.recipe.barrel.better_tfcr.barrel_sealed.jian_hua_xian_wei": "Alkaline fiber",
   "item.better_tfcr.thermometer": "Thermometer",
-  "item.better_tfcr.empty_thermometer": "Empty thermometer"
+  "item.better_tfcr.empty_thermometer": "Empty thermometer",
+  "item.better_tfcr.pulp_bucket": "Pulp bucket",
+  "block.better_tfcr.pulp_block": "Pulp",
+  "fluid_type.better_tfcr.pulp_type": "Pulp"
 }

@@ -1,5 +1,7 @@
-package net.laoli.Bettertfcr.better_tfcr.Item;
+package net.laoli.Bettertfcr.better_tfcr.Register;
 
+import net.laoli.Bettertfcr.better_tfcr.Fluid.Pulp;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -22,5 +24,7 @@ public class RegisterItem {
         public static final RegistryObject<Item> CLEAN_ALKALINE_FIBER = ITEMS.register("clean_alkaline_fiber", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> THERMOMETER = ITEMS.register("thermometer", () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> EMPTY_THERMOMETER = ITEMS.register("empty_thermometer", () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> PULP_BUCKET = ITEMS.register("pulp_bucket",
+                () -> new BucketItem(Pulp.SOURCE, (new Item.Properties()).craftRemainder(net.minecraft.world.item.Items.BUCKET).stacksTo(1)));
     }
 }
