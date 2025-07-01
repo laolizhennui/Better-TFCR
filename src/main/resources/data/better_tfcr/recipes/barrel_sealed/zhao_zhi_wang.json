@@ -7,7 +7,7 @@
   },
   "input_fluid": {
     "ingredient": "better_tfcr:pulp",
-    "amount": 100
+    "amount": 1000
   },
   "output_item": {
     "item": "better_tfcr:with_papermaking_wire_inside"
