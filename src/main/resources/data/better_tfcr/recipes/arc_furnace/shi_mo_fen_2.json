@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 1000,
+  "input": {
+    "item": "tfcoreprocessing:kindle/coal_dust"
+  },
+  "results": [
+    {
+      "item": "tfc:powder/graphite"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "tfc:powder/graphite"
+      }
+    }
+  ],
+  "time": 5
+}
